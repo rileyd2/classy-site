@@ -2,3 +2,9 @@ html {
 
   background-color: red
 }
+
+p {
+color: green;
+font-size: 50px;
+background-color: #00FFFF;
+}
