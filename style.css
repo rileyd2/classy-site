@@ -1,10 +1,43 @@
 html {
+  background-color: red;
+}
 
-  background-color: red
+h1 {
+  color: white;
+
+  font-size: 50px;
+  background-color: black;
+  text-align: center;
+  border-radius: 50px;
+  border: dotted red;
+  padding: 5px;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+  background-color: black;
+  text-align: center;
+  border-radius: 50px;
+  border: dotted red;
+  padding: 2px;
 }
 
 p {
 color: white;
-font-size: 50px;
+font-size: 40px;
 background-color: black;
+text-align: center;
+border-radius: 50px;
+border: dotted red;
+padding: 5px;
+}
+
+a{
+  color: white;
+  text-decoration:none;
+}
+
+ul{
+  list-style: lower-alpha;
 }
