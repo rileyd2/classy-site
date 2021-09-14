@@ -1,32 +1,51 @@
 html {
-background-color: yellow;
+/* background-color: yellow; */
 text-align: center;
 background-image: url(images/corn-background.jpg);
-background-size: 300px;
+background-size: 400px;
 cursor:crosshair;
 font-family: 'Ubuntu', sans-serif;
 }
 
-h1{
-  font-size: 75px;
+body {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 150px;
   text-align: center;
   color: black;
-  /* background-color: #93CCEA;
-  border: 5px solid blue; */
-padding: 20px;
-width: 500px;
-margin: auto;
+  text-shadow: 2px 2px 10px #93CCEA;
+  padding: 20px;
+  width: auto;
+  /* margin: auto; */
+  margin-bottom: 0px;
 }
-h2{
+
+h2 {
   font-size: 50px;
+  text-decoration: underline;
+  background-color: : white;
+  /* width: auto; */
+  /* height: 40px;
+  border: 10px double green; */
+  /* padding: auto;
+  margin: auto; */
+  text-align: center;
+  padding: 20px;
+  margin: 20px
 }
 
-img{
-  width: 500px;
-  border: 10px #93CCEA;
+img {
+  max-width: 700px;
+  border: 10px solid green;
+  margin: auto;
+  display: block;
+  /* margin: 100px; */
+  /* border: 10px #93CCEA; */
 }
 
-.box {
+/* .box {
   float: left;
   width: 33.33%;
   padding: 50px;
@@ -41,17 +60,52 @@ img{
   content: "";
   clear: both;
   display: table;
-}
+} */
 
-h1 {
+/* h1 {
     text-size: 100px;
-}
+} */
 
-p {
-font-size: 20px;
-  background-color: white;
+a{
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
 }
 
 a:hover {
-  text-decoration: line-through;
+  color: green;
 }
+
+
+
+p {
+  font-size: 18px;
+  text-align:center;
+  background-color: white;
+  border: 10px solid green;
+  width: 700px;
+  padding: 50px;
+  margin: auto;
+}
+
+ul {
+  /* list-style-type: lower-alpha; */
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 20px;
+  background-color: white;
+  border: 10px solid green;
+  width: 700px;
+  padding: 50px;
+  margin: auto;
+}
+
+
+/* div {
+  width: auto;
+  height: 50px;
+  border: 10px double green;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+} */
