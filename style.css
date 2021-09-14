@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background-color: red;
+  cursor:crosshair;
+  margin: 20px;
 }
 
 h1 {
@@ -25,6 +31,7 @@ h2 {
 
 p {
 color: white;
+font-family: sans-serif;
 font-size: 40px;
 background-color: black;
 text-align: center;
@@ -38,6 +45,16 @@ a{
   text-decoration:none;
 }
 
+p:hover {
+  font-weight: lighter;
+  text-decoration:underline;
+  text-decoration-style:wavy;
+}
+
 ul{
   list-style: lower-alpha;
 }
+
+/* #grad {
+  background-image: linear-gradient(#FA8072, red);
+} */
