@@ -86,6 +86,7 @@ p {
   width: 700px;
   padding: 50px;
   margin: auto;
+
 }
 
 ul {
@@ -101,6 +102,9 @@ ul {
 justify-content: center;
 }
 
+/* li {
+  display: block;
+} */
 
 /* div {
   width: auto;

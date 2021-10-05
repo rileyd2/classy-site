@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+background-color: #dbabb6;
+}
+
+#grad {
+  background-image: linear-gradient(red, #dbabb6);
+}
+
+.button {
+  background-color: orange;
+  border: 20px red;
+  opacity: .5;
+  padding: 150px;
+  cursor: crosshair;
+  border-radius: 50%;
+  font-size: 50px;
+  margin-left: 500px;
+  margin-top: 200px;
+  transform:skewX(20deg);
+  transform:skewY(5deg);
+  transition: all 10s ease-in-out;
+  /* position: absolute; */
+  animation: bounce 9s infinite alternate;
+}
+
+.button:hover {
+  opacity: .9;
+  background-color: red;
+  font-style: oblique;
+  transform: scale(2);
+}
+
+.button2 {
+  background-color: purple;
+  /* filter: blur(5px); */
+  border: none;
+  opacity: .2;
+  padding: 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* margin: 4px 2px; */
+  cursor:crosshair;
+  border-radius: 60%;
+  font-size: 50px;
+  margin-left: 700px;
+  margin-top: 0px;
+  transform:skewX(50deg);
+  transform:skewY(20deg);
+  transition: all 10s ease-in-out;
+  /* position: absolute; */
+  animation: bounce2 13s infinite alternate;
+}
+
+.button2:hover {
+  opacity: .6;
+  background-color: pink;
+  transform: scale(3);
+}
+
+.button3 {
+  background-color: blue;
+  opacity: .1;
+  padding: 500px;
+    cursor:crosshair;
+    border-radius: 90%;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: -50px;
+    transform:skewX(50deg);
+    transform:skewY(-20deg);
+    transition: all 10s ease-in-out;
+  /* position: absolute; */}
+
+  .button3:hover {
+    opacity: .5;
+    background-color: light blue;
+    transform: scale(2.5);
+  }
+
+  @keyframes bounce {
+    0% {
+      margin-top: 500px
+    }
+
+    100% {
+        margin-top: 0px;
+      }
+  }
+
+  @keyframes bounce2 {
+    0% {
+      margin-top: 400px
+    }
+
+    100% {
+        margin-top: 0px;
+      }
+  }
