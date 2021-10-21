@@ -10,8 +10,8 @@ body {
 }
 
 img {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 450px;
+  max-height: 450px;
   opacity: 75%;
   mix-blend-mode: difference;
 }
@@ -38,7 +38,7 @@ img {
   cursor: grab;
 }
 
-.drag1 {
+/* .drag1 {
   width: 500px;
   top: 50px;
   left: 50vh;
@@ -53,7 +53,7 @@ img {
 
 .drag3 {
   background-blend-mode: multiply;
-}
+} */
 
 @keyframes spin {
         from {
