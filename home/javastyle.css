@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom, purple , red);
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+  opacity: 75%;
+  mix-blend-mode: difference;
+}
+
+.circle1 {
+  margin: auto;
+  background: none;
+  text-align: center;
+    border:3px dashed white;
+    height: 75vh;
+    border-radius:50%;
+    width: 75vh;
+    animation-name: spin;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.draggable {
+  background: none;
+  position: absolute;
+  /* width: 200px;
+  height: 200px; */
+  cursor: grab;
+}
+
+.drag1 {
+  width: 500px;
+  top: 50px;
+  left: 50vh;
+}
+
+.drag2 {
+  width: 400px;
+  position: absolute;
+  top: 400px;
+  left: 50px;
+}
+
+.drag3 {
+  background-blend-mode: multiply;
+}
+
+@keyframes spin {
+        from {
+            transform: rotate(0deg);
+        } to {
+            transform: rotate(360deg);
+        }
