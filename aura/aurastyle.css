@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    /* background: red;
+    font-size: 80px; */
+    margin: 0;
+    font-family: 'Cormorant', serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+div {
+margin: 0;
+background-color: red;
+height: 100vh;
+width: 100vw;
+overflow-x: scroll;
+}
+
+p {
+color: black;
+font-size: 100px;
+height: 500px;
+text-align: center;
+width: 110000px;
+margin: auto;
+padding: 350px;
+word-spacing: 95vw;
+white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+}
+a:hover {
+    color: white;
+}
+
+#grad1 {
+  margin:0;
+  height: 100vh;
+  background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #f0f0f5 , #05023d);
