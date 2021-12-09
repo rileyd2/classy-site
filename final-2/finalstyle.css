@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    margin: 0;
+    cursor: s-resize;
+}
+
+img {
+  max-width: 100%;
+  margin: auto;
+  height: 200px;
+}
+
+.accordion {
+  background-color: black;
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: #444;
+  cursor: pointer;
+  padding: 0;
+  width: 1920px;
+  height: 200px;
+  border: 0;
+  text-align: center;
+  outline: none;
+  font-size: 50px;
+  transition: 2s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0;
+  background-color: black;
+  background-position: top center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: -4px;
+  max-height: 0;
+    width: 1920px;
+  height: 200px;
+  overflow: hidden;
+  transition: max-height 5s ease-out;
+}
+
+/* .ac1 {
+  background-image: url("images/visible_man_01.jpg");
+}
+
+.ac2 {
+  background-image: url("images/visible_man_01a.jpg");
+} */

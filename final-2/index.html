@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FINAL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="finalstyle.css">
+</head>
+
+<body>
+
+
+<button class="accordion ac1"><img src="images/dungeon-01.jpg"></button>
+<div class="panel ac2"><img src="images/dungeon-02.jpg">
+</div>
+
+<button class="accordion"><img src="images/dungeon-03.jpg"></button>
+<div class="panel">
+  <p><img src="images/dungeon-04.jpg"></p>
+</div>
+
+<button class="accordion"><img src="images/dungeon-05.jpg"></button>
+<div class="panel">
+  <p><img src="images/dungeon-06.jpg"></p>
+</div>
+
+<button class="accordion"><img src="images/dungeon-07.jpg"></button>
+<div class="panel">
+  <p><img src="images/dungeon-08.jpg"></p>
+</div>
+
+<button class="accordion"><img src="images/dungeon-09.jpg"></button>
+<div class="panel">
+  <p><img src="images/dungeon-10.jpg"></p>
+</div>
+
+<button class="accordion"><img src="images/dungeon-11.jpg"></button>
+<div class="panel">
+  <p><img src="images/dungeon-12.jpg"></p>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+  </body>
+
+</html>
